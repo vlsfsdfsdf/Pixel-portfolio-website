@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+/* Global */
+
+color {
+  color: white;
+  color: #000000;
+  color: #543199;
+  color: #8C52FF;
+  color: #cfcfcf;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+
+body {
+  background-color: #000000;
+  color: white;
+  
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  color: #543199;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+
+/* Header */
+
+.header {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.caligraph-title {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.home-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.home-link {
+  font-size: 25px;
+}
+
+.home-link:hover {
+  color: #8C52FF;
+  cursor: pointer;
+}
+
+/* Home section */
+
+.home-section {
+  margin-top: 170px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-buble {
+  font-weight: 400;
+  background-color: rgba(140, 82, 255, 0.3);
+  border-radius: 50px;
+  border: 1px solid #8C52FF;
+  width: 230px;
+  height: 45px;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+
+.hero-main-title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 80px;
+  letter-spacing: 10%;
+}
+
+.hero-title {
+    font-weight: 700;
+  font-size: 60px;
+  color: #cfcfcf;
+  margin-bottom: 50px;
+}
+
+.hero-text {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  padding-top: 55px;
+}
+
+.btn {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  width: 330px;
+  height: 70px;
+  background-color: transparent;
+  border: 1px solid #543199;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #543199;
+}
+
