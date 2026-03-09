@@ -26,6 +26,10 @@ body {
   
 }
 
+.section {
+  margin: 180px 160px;
+}
+
 .centered {
   display: flex;
   justify-content: center;
@@ -156,21 +160,79 @@ ul {
 
 .about-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .about-title {
 margin-bottom: 30px;
-font-size: 44px;
+font-size: 60px;
 }
 
 .about-text {
   font-weight: 400;
   font-size: 28px;
   margin-bottom: 28px;
+  color: #cfcfcf;
 }
 
 .cat-image {
   width: 800px;
+}
+
+/* Skills section */
+.skills-section {
+  
+}
+
+.skills-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-section-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 130px;
+  background-color: #6665652E;
+  border: 0.3px solid #543199;
+  border-radius: 20px;
+  padding: 40px 70px 70px 50px;
+}
+
+.skills-card-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.skills-card-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.skills-bubles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 60px;
+  width: auto;
+  height: 25px;
+  font-size: 20px;
+  border: 3px solid #543199;
+  background-color: rgba(140, 82, 255, 0.1);
+  border-radius: 20px;
+  padding: 5px 10px;
 }
