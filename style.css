@@ -246,6 +246,7 @@ font-size: 60px;
 .timeline-section-title {
   font-weight: 700;
   font-size: 60px;
+  margin-bottom: 70px;
 }
 
 .timeline-section::before {
@@ -305,6 +306,7 @@ font-size: 60px;
 .timeline-card-text {
   font-weight: 500;
   font-size: 20px;
+  max-width: 830px;
 }
 
 /* My projects section */
