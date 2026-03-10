@@ -36,7 +36,7 @@ body {
   align-items: center;
 }
 
-.span {
+span {
   color: #543199;
 }
 
@@ -181,9 +181,7 @@ font-size: 60px;
 }
 
 /* Skills section */
-.skills-section {
-  
-}
+
 
 .skills-section-container {
   display: flex;
@@ -205,7 +203,7 @@ font-size: 60px;
   background-color: #6665652E;
   border: 0.3px solid #543199;
   border-radius: 20px;
-  padding: 40px 70px 70px 50px;
+  padding: 40px 40px 70px 50px;
 }
 
 .skills-card-box {
@@ -227,8 +225,8 @@ font-size: 60px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  min-width: 60px;
   width: auto;
+  min-width: 60px;
   height: 25px;
   font-size: 20px;
   border: 3px solid #543199;
@@ -236,3 +234,80 @@ font-size: 60px;
   border-radius: 20px;
   padding: 5px 10px;
 }
+
+
+/* Timeline section */
+
+.timeline-section {
+  position: relative;
+  padding-left: 80px;
+}
+
+.timeline-section-title {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.timeline-section::before {
+  content: "";
+  position: absolute;
+  left: 44px;
+  top: 10px;
+  width: 4px;
+  height: 400px;
+  background: #8C52FF;
+}
+
+/* timeline buble */
+
+.timeline-dot {
+  position: absolute;
+  left: 0;
+  
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+  background: #8C52FF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-weight: bold;
+}
+
+/* Timeline card */
+
+.timeline-card {
+  margin-left: 45px;
+  width: 1200px;
+  height: 250px;
+  background-color: #6665652E;
+  border: 0.01px solid #8C52FF;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.timeline-card-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.timeline-card-span {
+  margin-bottom: 25px;
+}
+
+.timeline-card-span,
+.timeline-card-text {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* My projects section */
+
+
+
